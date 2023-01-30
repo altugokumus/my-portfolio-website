@@ -1,0 +1,8 @@
+
+.profile-pic {
+    border-radius: 100%;
+}
+
+a:hover {
+    opacity: 50%;
+}
