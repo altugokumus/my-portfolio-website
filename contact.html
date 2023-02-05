@@ -66,24 +66,23 @@
                   <h1 class="display-6 fw-bold">Contact Me</h1><br>
                   <p class="col-md-8 fs-6"><strong>Phone: </strong>+90 553 409 83 30</p>
                   <p class="col-md-8 fs-6"><strong>E-Mail: </strong>altugokumus@gmail.com</p>
-                  <form style="max-width: 500px;">
-                   
+
+                  <form style="max-width: 500px;" action="contact.html" method="post">
                     <h1 class="h3 mt-5 mb-3 fw-normal">Send Message</h1>
                 
                     <div class="form-floating mb-3">
-                      <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                      <input name="name" type="text" class="name form-control" id="floatingInput" placeholder="name@example.com">
                       <label for="floatingInput">Your Name</label>
                     </div>
                     <div class="form-floating mb-3">
-                      <input type="textarea" class="form-control" id="floatingPassword" placeholder="email">
+                      <input name="email" type="textarea" class="email form-control" id="floatingPassword" placeholder="email">
                       <label for="floatingPassword">E-Mail</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <textarea style="height: 100px;" class="form-control" id="floatingPassword" placeholder="Message"></textarea>
+                        <textarea name="message" style="height: 100px;" class="message form-control" id="floatingPassword" placeholder="Message"></textarea>
                         <label for="floatingPassword">Message</label>
                       </div>
                     <button class="btn btn-lg btn-outline-info" type="submit">Send</button>
-                    
                   </form>
                 </main>
                  </div>
@@ -98,5 +97,6 @@
         </div>
       </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
   </body>
 </html>
