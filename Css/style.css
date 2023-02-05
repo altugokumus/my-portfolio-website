@@ -3,10 +3,32 @@ html, body {
     overflow-x: hidden;
 }
 
-.profile-pic {
-    border-radius: 100%;
+.greeting {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 5rem;
+    color: rgb(137, 237, 255);
 }
+
+p{
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.profile-pic {
+    width: 200px;
+    border-radius: 100%;
+    margin-right: 50px;
+}
+
+.carousel-inner > .carousel-item > img {
+
+    height: 640px;
+  }
 
 a:hover {
     opacity: 50%;
+}
+
+.text-muted{
+   opacity: 40%;
 }
